@@ -6,6 +6,7 @@ defmodule Day01.Mixfile do
       app: :day01,
       version: "0.1.0",
       elixir: "~> 1.5",
+      escript: [main_module: Day01],
       start_permanent: Mix.env == :prod,
       deps: deps()
     ]

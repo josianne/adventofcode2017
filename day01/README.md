@@ -20,14 +20,10 @@ For example:
 
 ## Running
 
-The *day one* solution can be run by:
+The *day one* solution can be run, from the day01 folder, with:
 
 ```elixir
-def deps do
-  [
-    {:day01, "~> 0.1.0"}
-  ]
-end
+mix escript.build && ./day01 -f '../inputs/day01.txt'
 ```
 
 
